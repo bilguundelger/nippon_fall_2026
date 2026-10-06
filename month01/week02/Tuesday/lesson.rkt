@@ -208,7 +208,7 @@
 (define (file-size-label a)
   (cond
     [(< a 10) "small"]
-    [(and (>= a 10) (<= a 99)) "medium"]
+    [(and (>= a 10) (<=® a 99)) "medium"]
     
     
     [else "large"]))
