@@ -1,0 +1,50 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname lesson) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+;; Tuesday Week 02
+;; Boolean operation
+
+;; and, or, not
+
+;; Exercises
+(check-expect (and #t #t) #t)
+(check-expect (and #t #f) #f)
+(check-expect (or #f #f) #f)
+(check-expect (or #f #t) #t)
+(check-expect (not #t) #f)
+(check-expect (not #f) #t)
+ ;; Ex01
+(define (in-range? a)
+  (and (>= a 1) (<= a 10)))
+(check-expect (in-range? 5) #t)
+(check-expect (in-range? 1) #t)
+(check-expect (in-range? 10) #t)
+(check-expect (in-range? 0) #f)
+(check-expect (in-range? 11) #f)
+
+;; Ex02
+(define (teen? age)
+  (and (>= age 13) (<= age 19)))
+
+(check-expect (teen? 13) #t)
+(check-expect (teen? 19) #t)
+(check-expect (teen? 12) #f)
+(check-expect (teen? 20) #f)
+;; Ex03
+
+(define (Weekend? day)
+  (or (>= day 6) (= 7 day)))
+(check-expect (Weekend? 6) #t)
+(check-expect (Weekend? 7) #t)
+(check-expect (Weekend? 5) #f)
+
+;; Ex04
+
+(define (not-passing? score)
+  (not (>= score 60)))
+(check-expect (not-passing? 59) #t)
+(check-expect (not-passing? 60) #f)
+         
+  
+ 
+  
