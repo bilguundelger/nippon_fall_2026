@@ -10,7 +10,6 @@
   (if (>= score 60)
       (circle 20 "solid" "green")
       (circle 20 "solid" "red")))
-
   
   
 (check-expect (pass-fail-badge 60) (circle 20 "solid" "green"))

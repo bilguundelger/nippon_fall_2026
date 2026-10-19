@@ -3,6 +3,7 @@
 #reader(lib "htdp-beginner-reader.ss" "lang")((modname lesson) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
 ;; List
 
+
 ;; хоосон list
 (define no-scores empty)
 
@@ -60,6 +61,55 @@ scores
 (check-expect
  (second-subject
   (cons "A" (cons "B" (cons "C" empty)))) "B")
+;Ex04
+;List yg 2 elementtei eseh
+;exactly-two? list-of-numbers - boolean
+; list yg 2 elementtei bol true butsaana.
+
+(define (exactly-two? numbers)
+  (and
+   (cons? numbers)
+   (cons? (rest numbers))
+   (empty? (rest (rest numbers)))))
+        
+
+(check-expect (exactly-two? empty) #false)
+(check-expect
+ (exactly-two? (cons 5 empty))
+ #false)
+(check-expect
+ (exactly-two? (cons 5 (cons 10 empty)))
+ #true)
+(check-expect
+ (exactly-two? (cons 5 (cons 10 (cons 15 empty))))
+ #false)
+
+;Ex05
+
+(define prices
+  (cons 2500
+        (cons 4000
+              (cons 1500 empty))))
+(define (first-three-total prices)
+  (+ (first prices)
+     (first (rest prices))
+     (first (rest (rest prices)))))
+            
+
+(check-expect (first-three-total prices) 8000)
+
+ (check-expect
+  (first-three-total (cons 100 (cons 200 (cons 300 empty))))
+ 600)
+
+;; 100 elements prices?
+
+;; recursive function
+
+
+                   
+
+ 
                                     
 
 
