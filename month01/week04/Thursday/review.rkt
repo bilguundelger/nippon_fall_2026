@@ -39,7 +39,11 @@
         [(>= n 60) "D"]
         [else "F"]))
 (define (student-grade s) (letter-grade (final-score s)))
-(define (student-card s) (overlay (above (text (student-name s) 18 "black") (text (student-grade s) 24 (card-color s))) (rectangle 120 70 "outline" (card-color s))))
+(define (student-card s) (overlay (above (text (student-name s) 18 "black")
+                                         (text (student-grade s) 24
+                                               (card-color s)))
+                                  (rectangle 120 70 "outline"
+                                             (card-color s))))
 
 (check-expect (pass-label aki) (text "PASS" 16 "green"))
 (check-expect (pass-label ren) (text "FAIL" 16 "red"))
