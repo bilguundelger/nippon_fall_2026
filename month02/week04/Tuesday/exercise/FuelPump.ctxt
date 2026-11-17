@@ -1,0 +1,11 @@
+#BlueJ class context
+#Tue Nov 17 16:25:42 ULAT 2026
+comment0.target=FuelPump
+comment0.text=\n Write a description of class FuelPump here.\n\n @author (your name)\n @version (a version number or a date)\n
+comment1.params=pricePerLiter
+comment1.target=FuelPump(double)
+comment2.params=liters
+comment2.target=void pumpFuel(double)
+comment3.target=double getTotalCost()
+comment4.target=void resetPump()
+numComments=5
