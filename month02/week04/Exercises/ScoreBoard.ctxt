@@ -1,0 +1,9 @@
+#BlueJ class context
+#Tue Nov 24 16:17:52 ULAT 2026
+comment0.target=ScoreBoard
+comment1.target=ScoreBoard()
+comment2.target=int getScore()
+comment3.target=int getLevel()
+comment4.params=points
+comment4.target=void addPoints(int)
+numComments=5

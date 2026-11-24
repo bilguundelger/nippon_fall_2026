@@ -1,0 +1,12 @@
+#BlueJ class context
+#Tue Nov 24 17:36:18 ULAT 2026
+comment0.target=CoffeeMachine
+comment1.params=initialWater initialBeans
+comment1.target=CoffeeMachine(int, int)
+comment2.target=int getWaterMl()
+comment3.target=int getBeansGrams()
+comment4.target=int getCupsMade()
+comment5.params=water beans
+comment5.target=void refill(int, int)
+comment6.target=boolean makeEspresso()
+numComments=7

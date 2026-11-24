@@ -1,0 +1,12 @@
+#BlueJ class context
+#Tue Nov 24 17:21:36 ULAT 2026
+comment0.target=Elevator
+comment1.params=topFloor
+comment1.target=Elevator(int)
+comment2.target=int getCurrentFloor()
+comment3.target=boolean isDoorOpen()
+comment4.target=void openDoor()
+comment5.target=void closeDoor()
+comment6.params=targetFloor
+comment6.target=boolean goToFloor(int)
+numComments=7

@@ -1,0 +1,11 @@
+#BlueJ class context
+#Tue Nov 24 17:55:26 ULAT 2026
+comment0.target=FuelTank
+comment1.params=capacity efficiency
+comment1.target=FuelTank(double, double)
+comment2.target=double getLiters()
+comment3.params=addedLiters
+comment3.target=void refuel(double)
+comment4.params=distanceKm
+comment4.target=double drive(double)
+numComments=5

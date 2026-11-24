@@ -16,6 +16,11 @@ public class Hero
         health = 100;
         gold = 0;
     }
+    public Hero(){
+        name = "Bilguun";
+        health = 100;
+        gold = 0;
+    }
 
     public void findGold(int amount) {
         gold = gold + amount;

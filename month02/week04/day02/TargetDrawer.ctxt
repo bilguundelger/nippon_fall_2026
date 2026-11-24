@@ -1,0 +1,6 @@
+#BlueJ class context
+#Tue Nov 24 17:13:40 ULAT 2026
+comment0.target=TargetDrawer
+comment1.params=rings
+comment1.target=void drawTarget(int)
+numComments=2

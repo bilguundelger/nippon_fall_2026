@@ -1,0 +1,6 @@
+#BlueJ class context
+#Tue Nov 24 17:13:36 ULAT 2026
+comment0.target=StaircaseBuilder
+comment1.params=steps
+comment1.target=void buildStairs(int)
+numComments=2

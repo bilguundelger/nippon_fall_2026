@@ -1,0 +1,8 @@
+#BlueJ class context
+#Tue Nov 24 16:06:53 ULAT 2026
+comment0.target=Thermostat
+comment1.target=Thermostat()
+comment2.target=int getTemperature()
+comment3.target=void increaseTemp()
+comment4.target=void decreaseTemp()
+numComments=5
