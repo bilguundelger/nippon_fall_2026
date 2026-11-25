@@ -1,0 +1,9 @@
+#BlueJ class context
+#Wed Nov 25 17:50:54 ULAT 2026
+comment0.target=ShoppingCart
+comment1.target=ShoppingCart()
+comment2.target=int getItemCount()
+comment3.params=p
+comment3.target=boolean addProduct(Product)
+comment4.target=double getTotalPrice()
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+#Wed Nov 25 17:21:16 ULAT 2026
+comment0.target=Book
+comment1.params=bookTitle
+comment1.target=Book(java.lang.String)
+comment2.target=java.lang.String getTitle()
+comment3.target=boolean isBorrowed()
+comment4.params=borrowed
+comment4.target=void setBorrowed(boolean)
+numComments=5
